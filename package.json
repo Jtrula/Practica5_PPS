@@ -12,5 +12,14 @@
     "mysql2": "^3.9.2",
     "sanitize-html": "^2.15.0",
     "ws": "^8.18.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha \"test/**/*.mjs\""
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2"
   }
 }
+
