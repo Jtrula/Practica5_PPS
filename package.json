@@ -15,7 +15,7 @@
     "ws": "^8.18.1"
   },
   "scripts": {
-    "start": "nmp test && node src/server.js",
+    "start": "npm test && node src/server.js",
     "test": "mocha \"test/**/*.mjs\""
   },
   "devDependencies": {
